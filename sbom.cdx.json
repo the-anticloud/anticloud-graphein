@@ -1,0 +1,355 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:ece5dff7-2808-5548-8b8b-27f030d3e92a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:11:49Z",
+  "component": {
+   "type": "application",
+   "name": "GRAPHEIN",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/GRAPHEIN@83b357604d34",
+   "purl": "pkg:generic/anticloud/GRAPHEIN@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "anaconda",
+   "version": "unspecified",
+   "purl": "pkg:generic/anaconda",
+   "bom-ref": "conda/anaconda@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "bioconda",
+   "version": "unspecified",
+   "purl": "pkg:generic/bioconda",
+   "bom-ref": "conda/bioconda@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "plotly",
+   "version": "unspecified",
+   "purl": "pkg:generic/plotly",
+   "bom-ref": "conda/plotly@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "schrodinger",
+   "version": "unspecified",
+   "purl": "pkg:generic/schrodinger",
+   "bom-ref": "conda/schrodinger@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "salilab",
+   "version": "unspecified",
+   "purl": "pkg:generic/salilab",
+   "bom-ref": "conda/salilab@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "3.8",
+   "purl": "pkg:generic/python@3.8",
+   "bom-ref": "conda/python@3.8"
+  },
+  {
+   "type": "library",
+   "name": "biopython",
+   "version": "unspecified",
+   "purl": "pkg:generic/biopython",
+   "bom-ref": "conda/biopython@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "biopandas",
+   "version": "unspecified",
+   "purl": "pkg:generic/biopandas",
+   "bom-ref": "conda/biopandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda",
+   "bom-ref": "conda/conda@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "click",
+   "version": "unspecified",
+   "purl": "pkg:generic/click",
+   "bom-ref": "conda/click@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "dssp",
+   "version": "unspecified",
+   "purl": "pkg:generic/dssp",
+   "bom-ref": "conda/dssp@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "flake8",
+   "version": "unspecified",
+   "purl": "pkg:generic/flake8",
+   "bom-ref": "conda/flake8@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "interrogate",
+   "version": "unspecified",
+   "purl": "pkg:generic/interrogate",
+   "bom-ref": "conda/interrogate@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipympl",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipympl",
+   "bom-ref": "conda/ipympl@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "isort",
+   "version": "unspecified",
+   "purl": "pkg:generic/isort",
+   "bom-ref": "conda/isort@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "jupyter",
+   "version": "unspecified",
+   "purl": "pkg:generic/jupyter",
+   "bom-ref": "conda/jupyter@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "jupyterlab",
+   "version": "unspecified",
+   "purl": "pkg:generic/jupyterlab",
+   "bom-ref": "conda/jupyterlab@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "mamba",
+   "version": "unspecified",
+   "purl": "pkg:generic/mamba",
+   "bom-ref": "conda/mamba@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": "unspecified",
+   "purl": "pkg:generic/matplotlib",
+   "bom-ref": "conda/matplotlib@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "mypy",
+   "version": "unspecified",
+   "purl": "pkg:generic/mypy",
+   "bom-ref": "conda/mypy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "networkx",
+   "version": "unspecified",
+   "purl": "pkg:generic/networkx",
+   "bom-ref": "conda/networkx@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "nodejs",
+   "version": "unspecified",
+   "purl": "pkg:generic/nodejs",
+   "bom-ref": "conda/nodejs@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "unspecified",
+   "purl": "pkg:generic/numpy",
+   "bom-ref": "conda/numpy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "unspecified",
+   "purl": "pkg:generic/pandas",
+   "bom-ref": "conda/pandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pandoc",
+   "version": "unspecified",
+   "purl": "pkg:generic/pandoc",
+   "bom-ref": "conda/pandoc@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pre-commit",
+   "version": "unspecified",
+   "purl": "pkg:generic/pre-commit",
+   "bom-ref": "conda/pre-commit@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": "unspecified",
+   "purl": "pkg:generic/pydantic",
+   "bom-ref": "conda/pydantic@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pymol",
+   "version": "unspecified",
+   "purl": "pkg:generic/pymol",
+   "bom-ref": "conda/pymol@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyyaml",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyyaml",
+   "bom-ref": "conda/pyyaml@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scikit-learn",
+   "version": "unspecified",
+   "purl": "pkg:generic/scikit-learn",
+   "bom-ref": "conda/scikit-learn@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": "unspecified",
+   "purl": "pkg:generic/scipy",
+   "bom-ref": "conda/scipy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "tqdm",
+   "version": "unspecified",
+   "purl": "pkg:generic/tqdm",
+   "bom-ref": "conda/tqdm@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python-wget",
+   "version": "unspecified",
+   "purl": "pkg:generic/python-wget",
+   "bom-ref": "conda/python-wget@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "xarray",
+   "version": "unspecified",
+   "purl": "pkg:generic/xarray",
+   "bom-ref": "conda/xarray@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "deepdiff",
+   "version": "unspecified",
+   "purl": "pkg:generic/deepdiff",
+   "bom-ref": "conda/deepdiff@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "bioservices",
+   "version": "unspecified",
+   "purl": "pkg:generic/bioservices",
+   "bom-ref": "conda/bioservices@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "propy3",
+   "version": "unspecified",
+   "purl": "pkg:generic/propy3",
+   "bom-ref": "conda/propy3@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyaaisc",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyaaisc",
+   "bom-ref": "conda/pyaaisc@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "git",
+   "version": "unspecified",
+   "purl": "pkg:generic/git",
+   "bom-ref": "conda/git@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "r-j",
+   "version": "unspecified",
+   "purl": "pkg:generic/r-j",
+   "bom-ref": "conda/r-j@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "--",
+   "version": ">",
+   "purl": "pkg:pypi/--@",
+   "bom-ref": "pypi/--@>"
+  },
+  {
+   "type": "library",
+   "name": "graphein",
+   "version": "= graphein.cli:main",
+   "purl": "pkg:pypi/graphein@graphein.cli:main",
+   "bom-ref": "pypi/graphein@= graphein.cli:main"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
